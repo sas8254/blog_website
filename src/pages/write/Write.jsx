@@ -6,7 +6,7 @@ export default function write() {
       <form className="writeForm">
         <div className="writeFormGroup">
           <label htmlFor="fileInput">
-            <i className=" fa-solid fa-plus"></i>
+            <i className="writeIcon fa-solid fa-plus"></i>
           </label>
           <input
             type="file"
@@ -24,7 +24,7 @@ export default function write() {
         <div className="writeFormGroup">
           <textarea
             placeholder="Tell your story"
-            className="writeInput WriteText"
+            className="writeInput writeText"
           ></textarea>
         </div>
         <button className="writeSubmit">Publish</button>
